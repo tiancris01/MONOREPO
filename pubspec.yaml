@@ -39,3 +39,7 @@ melos:
     version:
       linkToCommits: true
       workspaceChangelog: true
+
+    bootstrap:
+      runPubGet: true
+      cleanBeforeBootstrap: true

@@ -2,7 +2,7 @@ name: my_monorepo
 publish_to: none
 
 environment:
-  sdk: ^3.9.0
+  sdk: ^3.6.0
 
 workspace:
   - apps/fake_store_api_app

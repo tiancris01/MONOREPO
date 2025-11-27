@@ -401,7 +401,7 @@
       "name": "my_monorepo",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "3.9"
+      "languageVersion": "3.6"
     },
     {
       "name": "fake_sore_api_app",

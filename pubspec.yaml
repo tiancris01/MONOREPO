@@ -10,3 +10,32 @@ workspace:
 
 dev_dependencies:
   melos: ^7.3.0
+
+melos:
+  repository: https://github.com/tiancris01/MONOREPO
+  ignore:
+    - "packages/**/example"
+
+  scripts:
+    analyze:
+      run: flutter analyze .
+      description: Analyze all packages
+
+    test:
+      run: flutter test
+      description: Run tests for all packages
+
+    format:
+      run: dart format .
+      description: Format all packages
+
+    generate:build:
+      packageFilters:
+        dependsOn: build_runner
+      run: |
+        melos exec --depends-on=build_runner -- "dart run build_runner build --delete-conflicting-outputs"
+
+  command:
+    version:
+      linkToCommits: true
+      workspaceChangelog: true

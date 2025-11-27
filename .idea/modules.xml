@@ -3,9 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
 <module fileurl="file://$PROJECT_DIR$/packages/ds_fake_store_api/melos_ds_fake_store_api.iml" filepath="$PROJECT_DIR$/packages/ds_fake_store_api/melos_ds_fake_store_api.iml"/>
-<module fileurl="file://$PROJECT_DIR$/apps/epam_tech_interview/melos_epam_tech_interview.iml" filepath="$PROJECT_DIR$/apps/epam_tech_interview/melos_epam_tech_interview.iml"/>
 <module fileurl="file://$PROJECT_DIR$/apps/fake_store_api_app/melos_fake_sore_api_app.iml" filepath="$PROJECT_DIR$/apps/fake_store_api_app/melos_fake_sore_api_app.iml"/>
 <module fileurl="file://$PROJECT_DIR$/melos_my_monorepo.iml" filepath="$PROJECT_DIR$/melos_my_monorepo.iml"/>
+<module fileurl="file://$PROJECT_DIR$/apps/epam_tech_interview/melos_epam_tech_interview.iml" filepath="$PROJECT_DIR$/apps/epam_tech_interview/melos_epam_tech_interview.iml"/>
     </modules>
   </component>
 </project>

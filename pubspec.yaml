@@ -6,7 +6,6 @@ environment:
 
 workspace:
   - apps/fake_store_api_app
-  - apps/epam_tech_interview
   - packages/ds_fake_store_api
 
 dev_dependencies:

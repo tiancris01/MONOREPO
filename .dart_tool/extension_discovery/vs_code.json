@@ -1,0 +1,1 @@
+{"version":2,"entries":[{"package":"my_monorepo","rootUri":"../","packageUri":"lib/"},{"package":"fake_sore_api_app","rootUri":"../apps/fake_store_api_app/","packageUri":"lib/"},{"package":"ds_fake_store_api","rootUri":"../packages/ds_fake_store_api/","packageUri":"lib/"}]}

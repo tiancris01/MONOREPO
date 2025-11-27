@@ -49,13 +49,15 @@ FEAT: Add scaling gesture for components (#3770). (f413eddb)
 | `PERF`     | Performance       |
 | `CI`       | CI/CD changes     |
 
-### With Scope (Optional)
+### Preferred Format
 
 ```bash
-FEAT(ds-fake-store-api): Add ProductCard widget
-FIX(epam-tech-interview): Resolve login crash
-CHORE(workspace): Update dependencies
+FEAT: Add ProductCard widget
+FIX: Resolve login crash
+CHORE: Update dependencies
 ```
+
+**Note:** Keep messages short and avoid type scopes `TYPE(scope):`
 
 ### Breaking Changes
 
@@ -128,7 +130,6 @@ git checkout -b type/scope/description
 
 # Commit
 git commit -m "TYPE: Description"
-git commit -m "TYPE(scope): Description"
 
 # Release
 melos version
@@ -140,6 +141,8 @@ melos version
 
 - ❌ Lowercase types: `feat` (use `FEAT`)
 - ❌ Missing colon: `FEAT add feature`
+- ❌ Type scopes: `FEAT(scope): description`
+- ❌ Long commit messages
 - ❌ Vague messages: "update stuff"
 - ❌ Long-lived branches
 - ❌ Committing to `main` directly

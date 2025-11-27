@@ -36,4 +36,5 @@ This is a Flutter design system package (`ds_fake_store_api`) using atomic desig
 - Follow semantic versioning for releases.
 - Ensure branches are named according to the defined conventions for clarity and consistency.
 - Write commit messages that clearly describe the changes made, following the conventional commits format.
+- Keep commit messages short and avoid type scopes (avoid `TYPE(scope):`, use `TYPE:` instead).
 - Regularly review and refactor code to maintain quality and adherence to standards.
